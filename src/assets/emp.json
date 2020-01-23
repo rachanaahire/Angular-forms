@@ -1,0 +1,5 @@
+[
+    {"name": "Rachana", "email":"rach@gmail.com", "phone":1234556789,"department":"Sales","timepref":"morning", "isemployee":true},
+    {"name":"Sherlock", "email":"serh@gmail.com", "phone":1234556789,"department":"IT","timepref":"evening", "isemployee":true}
+        
+]

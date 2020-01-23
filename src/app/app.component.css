@@ -1,0 +1,5 @@
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    cursor: context-menu;
+  }

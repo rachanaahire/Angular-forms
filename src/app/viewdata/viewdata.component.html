@@ -1,0 +1,26 @@
+<div style="padding:100px;" >
+<table class="table">
+        <thead>
+                <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Department</th>
+                <th scope="col">Work Time</th>
+                <th>EDIT</th>
+                <th>DELETE</th>
+                </tr>
+        </thead>
+        <tbody>
+                <tr *ngFor="let employe of emp; index as i">
+                <th scope="row"> {{employe.name}} </th>
+                <td> {{employe.email}} </td>
+                <td> {{employe.phone}} </td>
+                <td> {{employe.department}} </td>
+                <td> {{employe.timepref}} </td>
+                <td><button class="btn btn-primary" (click)="onSelect(i)">Edit</button> </td>
+                <td><button class="btn btn-danger" (click)="onDelete(i)">Delete</button></td>
+                </tr>
+        </tbody>
+</table>
+</div>
